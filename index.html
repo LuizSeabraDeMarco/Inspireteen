@@ -3,120 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HackTeen | O Futuro do Impacto Social</title>
+    <title>HackTeen | Execução Real para Impacto Social</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Fontes de Impacto: Inter Tight e Satoshi (usando Inter como base) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="midnight-theme">
-    <!-- Navbar Premium -->
-    <header class="navbar-v5">
-        <nav class="container">
+
+<!-- NAVBAR -->
+<header class="navbar-v5">
+    <nav class="container">
+        <div class="logo-v5">Hack<span>Teen</span></div>
+        <div class="nav-actions">
+            <a href="#ongs" class="nav-link-v5">Projetos</a>
+            <a href="#manifesto" class="nav-link-v5">Manifesto</a>
+            <a href="https://forms.gle/etLHzfPmfeoPQApUA" target="_blank" class="btn-v5-primary">Sou ONG</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6S_54v66-8CspD5PJRTNnbk97rf_n4nrF7PyDYFhWQhJ4bg/viewform?usp=publish-editor" target="_blank" class="btn-v5-outline">Sou Voluntário</a>
+        </div>
+        <div class="mobile-toggle-v5">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero-v5">
+    <div class="container">
+        <div class="hero-top" data-aos="fade-up">
+            <span class="label-v5">Execução Real • Impacto Real</span>
+            <h1>
+                Jovens construindo 
+                <span class="gradient-v5">soluções reais</span><br>
+                para problemas que <span class="italic-v5">importam.</span>
+            </h1>
+        </div>
+        <div class="hero-bottom" data-aos="fade-up" data-aos-delay="200">
+            <p>
+                O HackTeen conecta ONGs com desafios reais a squads de jovens desenvolvedores
+                que constroem e entregam sistemas prontos para uso.
+            </p>
+            <div class="hero-btns-v5">
+                <a href="#ongs" class="btn-v5-large">Ver Projetos Abertos</a>
+                <div class="hero-avatars">
+                    <div class="avatar"><img src="https://i.pravatar.cc/100?u=1"></div>
+                    <div class="avatar"><img src="https://i.pravatar.cc/100?u=2"></div>
+                    <div class="avatar"><img src="https://i.pravatar.cc/100?u=3"></div>
+                    <span>+200 builders</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- COMO FUNCIONA (Bento Grid Melhorado) -->
+<section id="como-funciona" class="how-it-works-v5">
+    <div class="container">
+        <div class="section-header-v5" data-aos="fade-up">
+            <span class="section-subtitle">O Fluxo</span>
+            <h2>Como funciona</h2>
+            <p>Do problema à solução em 4 passos objetivos.</p>
+        </div>
+        <div class="bento-grid">
+            <div class="bento-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="bento-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                <h3>1. ONGs aplicam</h3>
+                <p>Organizações trazem desafios reais que precisam de tecnologia para escalar seu impacto.</p>
+            </div>
+            <div class="bento-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="bento-icon"><i class="fas fa-users-gear"></i></div>
+                <h3>2. Formação de Squads</h3>
+                <p>Selecionamos jovens talentos para formar times multidisciplinares focados na execução.</p>
+            </div>
+            <div class="bento-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="bento-icon"><i class="fas fa-code"></i></div>
+                <h3>3. Desenvolvimento Ativo</h3>
+                <p>Mão na massa. Código limpo, design moderno e foco total na necessidade da ONG.</p>
+            </div>
+            <div class="bento-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="bento-icon"><i class="fas fa-rocket"></i></div>
+                <h3>4. Entrega e Uso</h3>
+                <p>O sistema é entregue pronto para uso, gerando valor imediato para a sociedade.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MANIFESTO -->
+<section id="manifesto" class="bento-section">
+    <div class="container">
+        <div class="bento-grid">
+            <div class="bento-item bento-large" data-aos="fade-right">
+                <span class="section-subtitle">Nosso DNA</span>
+                <h2>Não é sobre código.<br>É sobre <span class="gradient-v5">impacto real.</span></h2>
+                <p>
+                    Acreditamos que a tecnologia é a ferramenta mais poderosa para mudança social. 
+                    No HackTeen, não fazemos "projetos de estudo", fazemos sistemas que mudam vidas.
+                </p>
+            </div>
+            <div class="bento-item" data-aos="fade-up">
+                <div class="bento-icon"><i class="fas fa-briefcase"></i></div>
+                <h3>Portfólio Real</h3>
+                <p>Saia do "Hello World" e construa soluções que pessoas reais usam todos os dias.</p>
+            </div>
+            <div class="bento-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="bento-icon"><i class="fas fa-bolt"></i></div>
+                <h3>Execução Ágil</h3>
+                <p>Transformamos ideias em produtos funcionais com velocidade e qualidade profissional.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="ongs" class="ongs-v5">
+    <div class="container">
+        <div class="section-header-v5" data-aos="fade-up">
+            <span class="section-subtitle">Oportunidades</span>
+            <h2>Projetos Abertos</h2>
+            <p>Escolha uma causa, entre em um squad e comece a construir.</p>
+        </div>
+        <div class="ongs-grid-v5" id="ongs-container-v5">
+            <!-- Injetado via JS -->
+        </div>
+    </div>
+</section>
+
+<!-- CTA FINAL (Substituindo os formulários internos) -->
+<section id="join" class="cta-v5">
+    <div class="container">
+        <div class="cta-box" data-aos="zoom-in">
+            <span class="label-v5">Pronto para começar?</span>
+            <h2>Faça parte da execução</h2>
+            <p>Seja você uma ONG precisando de ajuda ou um builder querendo impactar o mundo.</p>
+            <div class="cta-buttons">
+                <a href="https://forms.gle/etLHzfPmfeoPQApUA" target="_blank" class="btn-v5-primary">Quero inscrever minha ONG</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6S_54v66-8CspD5PJRTNnbk97rf_n4nrF7PyDYFhWQhJ4bg/viewform?usp=publish-editor" target="_blank" class="btn-v5-outline">Quero ser um voluntário</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer-v5">
+    <div class="container">
+        <div class="footer-top-v5">
             <div class="logo-v5">Hack<span>Teen</span></div>
-            <div class="nav-actions">
-                <a href="#ongs" class="nav-link-v5">Explorar ONGs</a>
-                <a href="#sobre" class="nav-link-v5">Manifesto</a>
-                <a href="#join" class="btn-v5-primary">Fazer Parte</a>
-            </div>
-            <div class="mobile-toggle-v5">
-                <i class="fas fa-bars"></i>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Hero Section: Tipografia Gigante e Impacto -->
-    <section class="hero-v5">
-        <div class="container">
-            <div class="hero-top" data-aos="fade-up">
-                <span class="label-v5">Conectando Jovens a Causas Reais</span>
-                <h1>Onde a <span class="gradient-v5">Tecnologia</span> encontra o <span class="italic-v5">Coração.</span></h1>
-            </div>
-            <div class="hero-bottom" data-aos="fade-up" data-aos-delay="200">
-                <p>O HackTeen é a plataforma definitiva para adolescentes que querem construir o futuro, ajudando ONGs com soluções digitais de alto nível.</p>
-                <div class="hero-btns-v5">
-                    <a href="#ongs" class="btn-v5-large">Ver Projetos Abertos</a>
-                    <div class="hero-avatars">
-                        <div class="avatar"><img src="https://i.pravatar.cc/100?u=1" alt=""></div>
-                        <div class="avatar"><img src="https://i.pravatar.cc/100?u=2" alt=""></div>
-                        <div class="avatar"><img src="https://i.pravatar.cc/100?u=3" alt=""></div>
-                        <span>+200 Jovens Hackers</span>
-                    </div>
-                </div>
+            <div class="footer-links-v5">
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-github"></i> GitHub</a>
             </div>
         </div>
-    </section>
-
-    <!-- Bento Grid: O Manifesto -->
-    <section id="sobre" class="bento-section">
-        <div class="container">
-            <div class="bento-grid">
-                <div class="bento-item bento-large" data-aos="fade-up">
-                    <div class="bento-content">
-                        <span class="bento-tag">Impacto</span>
-                        <h2>Não é apenas código. <br>É mudança real.</h2>
-                        <p>Cada linha escrita no HackTeen ajuda uma organização a ampliar seu alcance e salvar vidas.</p>
-                    </div>
-                    <div class="bento-icon-bg"><i class="fas fa-heart"></i></div>
-                </div>
-                <div class="bento-item bento-medium" data-aos="fade-up" data-aos-delay="100">
-                    <div class="bento-content">
-                        <span class="bento-tag">Carreira</span>
-                        <h3>Portfólio de Elite.</h3>
-                        <p>Construa cases reais para seu currículo enquanto ainda é adolescente.</p>
-                    </div>
-                    <div class="bento-icon-bg"><i class="fas fa-briefcase"></i></div>
-                </div>
-                <div class="bento-item bento-small" data-aos="fade-up" data-aos-delay="200">
-                    <div class="bento-content">
-                        <span class="bento-tag">Stack</span>
-                        <h3>React, Node & Python.</h3>
-                    </div>
-                </div>
-                <div class="bento-item bento-small" data-aos="fade-up" data-aos-delay="300">
-                    <div class="bento-content">
-                        <span class="bento-tag">Comunidade</span>
-                        <h3>Mentoria de Devs Sênior.</h3>
-                    </div>
-                </div>
-            </div>
+        <div class="footer-bottom-v5">
+            <p>© 2026 HackTeen. Todos os direitos reservados.</p>
+            <p>Feito com <i class="fas fa-heart" style="color: var(--primary-v5);"></i> por quem executa.</p>
         </div>
-    </section>
+    </div>
+</footer>
 
-    <!-- ONGs Section: Galeria de Projetos -->
-    <section id="ongs" class="ongs-v5">
-        <div class="container">
-            <div class="section-header-v5" data-aos="fade-up">
-                <h2>Projetos que precisam da sua <span class="gradient-v5">Mente.</span></h2>
-                <p>Escolha uma missão e comece a hackear para o bem.</p>
-            </div>
-            <div class="ongs-grid-v5" id="ongs-container-v5">
-                <!-- Injetado via JS -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer: O Futuro -->
-    <footer class="footer-v5">
-        <div class="container">
-            <div class="footer-top-v5">
-                <div class="logo-v5">Hack<span>Teen</span></div>
-                <div class="footer-links-v5">
-                    <a href="#">Instagram</a>
-                    <a href="#">Discord</a>
-                    <a href="#">GitHub</a>
-                    <a href="#">Blog</a>
-                </div>
-            </div>
-            <div class="footer-bottom-v5">
-                <p>&copy; 2026 HackTeen. Redefinindo o voluntariado tecnológico.</p>
-                <p>Criado para impactar o mundo.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
